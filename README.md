@@ -12,9 +12,13 @@ For now there is an example in doc dir, a doxygen doc of the source and the api 
 
 ### Build
 
-Simple
 
     $ make
+    $ bash -li
+    $ enable -f build/luabash.so luabash
+    $ luabash load doc/internal.lua
+    $ plus 3 4
+    3 * 4 = 12
 
 ### Support
 
